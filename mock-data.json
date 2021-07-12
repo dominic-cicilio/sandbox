@@ -1,0 +1,1880 @@
+{
+  "id": "gbrh-za6s",
+  "name": "Magical Story",
+  "assetType": "story",
+  "averageRating": 0,
+  "createdAt": 1619646311,
+  "displayType": "story",
+  "downloadCount": 0,
+  "hideFromCatalog": false,
+  "hideFromDataJson": false,
+  "newBackend": false,
+  "numberOfComments": 0,
+  "oid": 18982857,
+  "provenance": "official",
+  "publicationAppendEnabled": false,
+  "publicationDate": 1621892012,
+  "publicationGroup": 17707495,
+  "publicationStage": "published",
+  "rowsUpdatedAt": 1619646311,
+  "tableId": 17707495,
+  "totalTimesRated": 0,
+  "viewCount": 0,
+  "viewLastModified": 1621892012,
+  "viewType": "story",
+  "blocks": [
+    {
+      "layout": "12",
+      "components": [
+        {
+          "type": "html",
+          "value": "<h1 class=\"align-center\" style=\"text-align:center\">Pie Chart Summary Tables<br></h1>"
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.571Z",
+      "updated_at": "2020-11-24T00:18:04.571Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "12",
+      "components": [
+        {
+          "type": "html",
+          "value": "<h2 class=\"align-center\" style=\"text-align: center;\">Insert Viz into Story<br></h2>"
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.580Z",
+      "updated_at": "2020-11-24T00:18:04.580Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "12",
+      "components": [
+        {
+          "type": "html",
+          "value": "<h3 class=\"align-left\" style=\"text-align: left;\">No Filter Bar + No Hierarchy <br></h3>"
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.589Z",
+      "updated_at": "2020-11-24T00:18:04.589Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "6-6",
+      "components": [
+        {
+          "type": "socrata.visualization.vizCanvas",
+          "value": {
+            "layout": {
+              "height": 337.5
+            },
+            "dataset": {
+              "vifId": "266f2892-6e1d-4d8b-8ac2-8e03966e1797",
+              "datasetUid": "gubk-safc"
+            }
+          }
+        },
+        {
+          "type": "socrata.visualization.vizCanvas",
+          "value": {
+            "dataset": {
+              "vifId": "266f2892-6e1d-4d8b-8ac2-8e03966e1797",
+              "datasetUid": "62pa-tgi4"
+            }
+          }
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.599Z",
+      "updated_at": "2020-11-24T00:18:04.599Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "6-6",
+      "components": [
+        {
+          "type": "socrata.visualization.vizCanvas",
+          "value": {
+            "dataset": {
+              "vifId": "266f2892-6e1d-4d8b-8ac2-8e03966e1797",
+              "datasetUid": "r6h2-k5th"
+            }
+          }
+        },
+        {
+          "type": "assetSelector"
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.607Z",
+      "updated_at": "2020-11-24T00:18:04.607Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "12",
+      "components": [
+        {
+          "type": "html",
+          "value": "<h3>Filter Bar + No Hierarchy <br></h3>"
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.615Z",
+      "updated_at": "2020-11-24T00:18:04.615Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "6-6",
+      "components": [
+        {
+          "type": "socrata.visualization.vizCanvas",
+          "value": {
+            "dataset": {
+              "vifId": "266f2892-6e1d-4d8b-8ac2-8e03966e1797",
+              "datasetUid": "i5ei-7qj8"
+            }
+          }
+        },
+        {
+          "type": "socrata.visualization.vizCanvas",
+          "value": {
+            "dataset": {
+              "vifId": "266f2892-6e1d-4d8b-8ac2-8e03966e1797",
+              "datasetUid": "b5cg-npuu"
+            }
+          }
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.623Z",
+      "updated_at": "2020-11-24T00:18:04.623Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "6-6",
+      "components": [
+        {
+          "type": "socrata.visualization.vizCanvas",
+          "value": {
+            "dataset": {
+              "vifId": "266f2892-6e1d-4d8b-8ac2-8e03966e1797",
+              "datasetUid": "xjkz-97j5"
+            }
+          }
+        },
+        {
+          "type": "assetSelector"
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.631Z",
+      "updated_at": "2020-11-24T00:18:04.631Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "12",
+      "components": [
+        {
+          "type": "html",
+          "value": "<h3>Hierarchy <br></h3>"
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.639Z",
+      "updated_at": "2020-11-24T00:18:04.639Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "6-6",
+      "components": [
+        {
+          "type": "socrata.visualization.vizCanvas",
+          "value": {
+            "dataset": {
+              "vifId": "266f2892-6e1d-4d8b-8ac2-8e03966e1797",
+              "datasetUid": "quqk-icgr"
+            }
+          }
+        },
+        {
+          "type": "socrata.visualization.vizCanvas",
+          "value": {
+            "dataset": {
+              "vifId": "266f2892-6e1d-4d8b-8ac2-8e03966e1797",
+              "datasetUid": "bmt2-xr33"
+            }
+          }
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.647Z",
+      "updated_at": "2020-11-24T00:18:04.647Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "6-6",
+      "components": [
+        {
+          "type": "socrata.visualization.vizCanvas",
+          "value": {
+            "dataset": {
+              "vifId": "266f2892-6e1d-4d8b-8ac2-8e03966e1797",
+              "datasetUid": "5nys-iwta"
+            }
+          }
+        },
+        {
+          "type": "assetSelector"
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.655Z",
+      "updated_at": "2020-11-24T00:18:04.655Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "12",
+      "components": [
+        {
+          "type": "html",
+          "value": "<h3>No Filter Bar + No Hierarchy <br></h3>"
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.664Z",
+      "updated_at": "2020-11-24T00:18:04.664Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "4-4-4",
+      "components": [
+        {
+          "type": "socrata.visualization.vizCanvas",
+          "value": {
+            "dataset": {
+              "vifId": "266f2892-6e1d-4d8b-8ac2-8e03966e1797",
+              "datasetUid": "gubk-safc"
+            }
+          }
+        },
+        {
+          "type": "socrata.visualization.vizCanvas",
+          "value": {
+            "dataset": {
+              "vifId": "266f2892-6e1d-4d8b-8ac2-8e03966e1797",
+              "datasetUid": "62pa-tgi4"
+            }
+          }
+        },
+        {
+          "type": "socrata.visualization.vizCanvas",
+          "value": {
+            "dataset": {
+              "vifId": "266f2892-6e1d-4d8b-8ac2-8e03966e1797",
+              "datasetUid": "r6h2-k5th"
+            }
+          }
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.672Z",
+      "updated_at": "2020-11-24T00:18:04.672Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "12",
+      "components": [
+        {
+          "type": "html",
+          "value": "<h3>Filter Bar + No Hierarchy <br></h3>"
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.680Z",
+      "updated_at": "2020-11-24T00:18:04.680Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "4-4-4",
+      "components": [
+        {
+          "type": "socrata.visualization.vizCanvas",
+          "value": {
+            "dataset": {
+              "vifId": "266f2892-6e1d-4d8b-8ac2-8e03966e1797",
+              "datasetUid": "i5ei-7qj8"
+            }
+          }
+        },
+        {
+          "type": "socrata.visualization.vizCanvas",
+          "value": {
+            "dataset": {
+              "vifId": "266f2892-6e1d-4d8b-8ac2-8e03966e1797",
+              "datasetUid": "b5cg-npuu"
+            }
+          }
+        },
+        {
+          "type": "socrata.visualization.vizCanvas",
+          "value": {
+            "dataset": {
+              "vifId": "266f2892-6e1d-4d8b-8ac2-8e03966e1797",
+              "datasetUid": "xjkz-97j5"
+            }
+          }
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.689Z",
+      "updated_at": "2020-11-24T00:18:04.689Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "12",
+      "components": [
+        {
+          "type": "html",
+          "value": "<h3>Heirarchy <br></h3>"
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.697Z",
+      "updated_at": "2020-11-24T00:18:04.697Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "4-4-4",
+      "components": [
+        {
+          "type": "socrata.visualization.vizCanvas",
+          "value": {
+            "dataset": {
+              "vifId": "266f2892-6e1d-4d8b-8ac2-8e03966e1797",
+              "datasetUid": "quqk-icgr"
+            }
+          }
+        },
+        {
+          "type": "socrata.visualization.vizCanvas",
+          "value": {
+            "dataset": {
+              "vifId": "266f2892-6e1d-4d8b-8ac2-8e03966e1797",
+              "datasetUid": "b5cg-npuu"
+            }
+          }
+        },
+        {
+          "type": "socrata.visualization.vizCanvas",
+          "value": {
+            "dataset": {
+              "vifId": "266f2892-6e1d-4d8b-8ac2-8e03966e1797",
+              "datasetUid": "5nys-iwta"
+            }
+          }
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.708Z",
+      "updated_at": "2020-11-24T00:18:04.708Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "12",
+      "components": [
+        {
+          "type": "html",
+          "value": "<h1 class=\"align-center\" style=\"text-align:center\">In-Situ Viz<br></h1>"
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.719Z",
+      "updated_at": "2020-11-24T00:18:04.719Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "12",
+      "components": [
+        {
+          "type": "html",
+          "value": "<h3>No Filter Bar + No Hierarchy <br></h3>"
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.729Z",
+      "updated_at": "2020-11-24T00:18:04.729Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "6-6",
+      "components": [
+        {
+          "type": "socrata.visualization.pieChart",
+          "value": {
+            "vif": {
+              "title": "This Pie Chart Has A Title",
+              "format": {
+                "type": "visualization_interchange_format",
+                "version": 3
+              },
+              "series": [
+                {
+                  "type": "pieChart",
+                  "color": {
+                    "primary": "#71abd9",
+                    "highlight": "#cccccc",
+                    "secondary": "#71abd9"
+                  },
+                  "label": null,
+                  "dataSource": {
+                    "type": "socrata.soql",
+                    "limit": 12,
+                    "filters": [],
+                    "measure": {
+                      "columnName": "cases",
+                      "aggregationFunction": "sum"
+                    },
+                    "orderBy": {
+                      "sort": "desc",
+                      "parameter": "measure"
+                    },
+                    "dimension": {
+                      "columnName": "state",
+                      "aggregationFunction": null
+                    },
+                    "datasetUid": "i7pd-kfg2"
+                  },
+                  "showLegend": true
+                }
+              ],
+              "description": "",
+              "configuration": {
+                "showValueLabels": true,
+                "showOtherCategory": true,
+                "viewSourceDataLink": true,
+                "showValueLabelsAsPercent": false
+              }
+            },
+            "dataset": {
+              "datasetUid": "i7pd-kfg2"
+            },
+            "originalUid": "i7pd-kfg2"
+          }
+        },
+        {
+          "type": "socrata.visualization.pieChart",
+          "value": {
+            "vif": {
+              "title": "",
+              "format": {
+                "type": "visualization_interchange_format",
+                "version": 3
+              },
+              "series": [
+                {
+                  "type": "pieChart",
+                  "color": {
+                    "primary": "#71abd9",
+                    "highlight": "#cccccc",
+                    "secondary": "#71abd9"
+                  },
+                  "label": null,
+                  "dataSource": {
+                    "type": "socrata.soql",
+                    "limit": 12,
+                    "filters": [],
+                    "measure": {
+                      "columnName": "cases",
+                      "aggregationFunction": "sum"
+                    },
+                    "orderBy": {
+                      "sort": "desc",
+                      "parameter": "measure"
+                    },
+                    "dimension": {
+                      "columnName": "state",
+                      "aggregationFunction": null
+                    },
+                    "datasetUid": "i7pd-kfg2"
+                  },
+                  "showLegend": true
+                }
+              ],
+              "description": "This Pie Chart has a description",
+              "configuration": {
+                "showValueLabels": true,
+                "showOtherCategory": true,
+                "viewSourceDataLink": true,
+                "showValueLabelsAsPercent": false
+              }
+            },
+            "dataset": {
+              "datasetUid": "i7pd-kfg2"
+            },
+            "originalUid": "i7pd-kfg2"
+          }
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.740Z",
+      "updated_at": "2020-11-24T00:18:04.740Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "6-6",
+      "components": [
+        {
+          "type": "socrata.visualization.pieChart",
+          "value": {
+            "vif": {
+              "title": "Tile",
+              "format": {
+                "type": "visualization_interchange_format",
+                "version": 3
+              },
+              "series": [
+                {
+                  "type": "pieChart",
+                  "color": {
+                    "primary": "#71abd9",
+                    "highlight": "#cccccc",
+                    "secondary": "#71abd9"
+                  },
+                  "label": null,
+                  "dataSource": {
+                    "type": "socrata.soql",
+                    "limit": 12,
+                    "filters": [],
+                    "measure": {
+                      "columnName": "cases",
+                      "aggregationFunction": "sum"
+                    },
+                    "orderBy": {
+                      "sort": "desc",
+                      "parameter": "measure"
+                    },
+                    "dimension": {
+                      "columnName": "state",
+                      "aggregationFunction": null
+                    },
+                    "datasetUid": "i7pd-kfg2"
+                  },
+                  "showLegend": true
+                }
+              ],
+              "description": "description\n",
+              "configuration": {
+                "showValueLabels": true,
+                "showOtherCategory": true,
+                "viewSourceDataLink": true,
+                "showValueLabelsAsPercent": false
+              }
+            },
+            "dataset": {
+              "datasetUid": "i7pd-kfg2"
+            },
+            "originalUid": "i7pd-kfg2"
+          }
+        },
+        {
+          "type": "assetSelector"
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.753Z",
+      "updated_at": "2020-11-24T00:18:04.753Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "12",
+      "components": [
+        {
+          "type": "html",
+          "value": "<h3>Filter Bar + No Hierarchy <br></h3>"
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.765Z",
+      "updated_at": "2020-11-24T00:18:04.765Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "6-6",
+      "components": [
+        {
+          "type": "socrata.visualization.pieChart",
+          "value": {
+            "vif": {
+              "title": "Title",
+              "format": {
+                "type": "visualization_interchange_format",
+                "version": 3
+              },
+              "series": [
+                {
+                  "type": "pieChart",
+                  "color": {
+                    "primary": "#71abd9",
+                    "highlight": "#cccccc",
+                    "secondary": "#71abd9"
+                  },
+                  "label": null,
+                  "dataSource": {
+                    "type": "socrata.soql",
+                    "limit": 12,
+                    "filters": [
+                      {
+                        "joinOn": "OR",
+                        "function": "binaryOperator",
+                        "isHidden": false,
+                        "arguments": [
+                          {
+                            "operand": "Washington",
+                            "operator": "="
+                          },
+                          {
+                            "operand": "Illinois",
+                            "operator": "="
+                          },
+                          {
+                            "operand": "California",
+                            "operator": "="
+                          },
+                          {
+                            "operand": "Arizona",
+                            "operator": "="
+                          },
+                          {
+                            "operand": "Massachusetts",
+                            "operator": "="
+                          },
+                          {
+                            "operand": "Wisconsin",
+                            "operator": "="
+                          },
+                          {
+                            "operand": "Nebraska",
+                            "operator": "="
+                          },
+                          {
+                            "operand": "Utah",
+                            "operator": "="
+                          }
+                        ],
+                        "columnName": "state",
+                        "isDrilldown": false
+                      }
+                    ],
+                    "measure": {
+                      "columnName": "cases",
+                      "aggregationFunction": "sum"
+                    },
+                    "orderBy": {
+                      "sort": "desc",
+                      "parameter": "measure"
+                    },
+                    "dimension": {
+                      "columnName": "state",
+                      "aggregationFunction": null
+                    },
+                    "datasetUid": "i7pd-kfg2"
+                  },
+                  "showLegend": true
+                }
+              ],
+              "description": "",
+              "configuration": {
+                "showValueLabels": true,
+                "showOtherCategory": true,
+                "viewSourceDataLink": true,
+                "showValueLabelsAsPercent": false
+              }
+            },
+            "dataset": {
+              "datasetUid": "i7pd-kfg2"
+            },
+            "originalUid": "i7pd-kfg2"
+          }
+        },
+        {
+          "type": "socrata.visualization.pieChart",
+          "value": {
+            "vif": {
+              "title": "",
+              "format": {
+                "type": "visualization_interchange_format",
+                "version": 3
+              },
+              "series": [
+                {
+                  "type": "pieChart",
+                  "color": {
+                    "primary": "#71abd9",
+                    "highlight": "#cccccc",
+                    "secondary": "#71abd9"
+                  },
+                  "label": null,
+                  "dataSource": {
+                    "type": "socrata.soql",
+                    "limit": 12,
+                    "filters": [
+                      {
+                        "function": "noop",
+                        "isHidden": false,
+                        "arguments": null,
+                        "columnName": "state",
+                        "isDrilldown": false
+                      }
+                    ],
+                    "measure": {
+                      "columnName": "cases",
+                      "aggregationFunction": "sum"
+                    },
+                    "orderBy": {
+                      "sort": "desc",
+                      "parameter": "measure"
+                    },
+                    "dimension": {
+                      "columnName": "state",
+                      "aggregationFunction": null
+                    },
+                    "datasetUid": "i7pd-kfg2"
+                  },
+                  "showLegend": true
+                }
+              ],
+              "description": "Description",
+              "configuration": {
+                "showValueLabels": true,
+                "showOtherCategory": true,
+                "viewSourceDataLink": true,
+                "showValueLabelsAsPercent": false
+              }
+            },
+            "dataset": {
+              "datasetUid": "i7pd-kfg2"
+            },
+            "originalUid": "i7pd-kfg2"
+          }
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.775Z",
+      "updated_at": "2020-11-24T00:18:04.775Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "6-6",
+      "components": [
+        {
+          "type": "socrata.visualization.pieChart",
+          "value": {
+            "vif": {
+              "title": "Title",
+              "format": {
+                "type": "visualization_interchange_format",
+                "version": 3
+              },
+              "series": [
+                {
+                  "type": "pieChart",
+                  "color": {
+                    "primary": "#71abd9",
+                    "highlight": "#cccccc",
+                    "secondary": "#71abd9"
+                  },
+                  "label": null,
+                  "dataSource": {
+                    "type": "socrata.soql",
+                    "limit": 12,
+                    "filters": [],
+                    "measure": {
+                      "columnName": "cases",
+                      "aggregationFunction": "sum"
+                    },
+                    "orderBy": {
+                      "sort": "desc",
+                      "parameter": "measure"
+                    },
+                    "dimension": {
+                      "columnName": "state",
+                      "aggregationFunction": null
+                    },
+                    "datasetUid": "i7pd-kfg2"
+                  },
+                  "showLegend": true
+                }
+              ],
+              "description": "Descriptoin",
+              "configuration": {
+                "showValueLabels": true,
+                "showOtherCategory": true,
+                "viewSourceDataLink": true,
+                "showValueLabelsAsPercent": false
+              }
+            },
+            "dataset": {
+              "datasetUid": "i7pd-kfg2"
+            },
+            "originalUid": "i7pd-kfg2"
+          }
+        },
+        {
+          "type": "assetSelector"
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.789Z",
+      "updated_at": "2020-11-24T00:18:04.789Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "12",
+      "components": [
+        {
+          "type": "html",
+          "value": "<h3>Hierarchy <br></h3>"
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.801Z",
+      "updated_at": "2020-11-24T00:18:04.801Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "6-6",
+      "components": [
+        {
+          "type": "socrata.visualization.pieChart",
+          "value": {
+            "vif": {
+              "title": "Title",
+              "format": {
+                "type": "visualization_interchange_format",
+                "version": 3
+              },
+              "series": [
+                {
+                  "type": "pieChart",
+                  "color": {
+                    "primary": "#71abd9",
+                    "highlight": "#cccccc",
+                    "secondary": "#71abd9"
+                  },
+                  "label": null,
+                  "dataSource": {
+                    "type": "socrata.soql",
+                    "limit": 12,
+                    "filters": [
+                      {
+                        "function": "noop",
+                        "isHidden": false,
+                        "arguments": null,
+                        "columnName": "state",
+                        "isDrilldown": true
+                      },
+                      {
+                        "function": "noop",
+                        "isHidden": false,
+                        "arguments": null,
+                        "columnName": "date",
+                        "isDrilldown": true
+                      }
+                    ],
+                    "measure": {
+                      "columnName": "cases",
+                      "aggregationFunction": "sum"
+                    },
+                    "orderBy": {
+                      "sort": "desc",
+                      "parameter": "measure"
+                    },
+                    "dimension": {
+                      "columnName": "state",
+                      "drilldowns": [
+                        {
+                          "columnName": "date",
+                          "aggregationFunction": null
+                        }
+                      ],
+                      "aggregationFunction": null,
+                      "currentDrilldownColumnName": "state"
+                    },
+                    "datasetUid": "i7pd-kfg2"
+                  },
+                  "showLegend": true
+                }
+              ],
+              "description": "",
+              "configuration": {
+                "showValueLabels": true,
+                "showOtherCategory": true,
+                "viewSourceDataLink": true,
+                "showValueLabelsAsPercent": false
+              }
+            },
+            "dataset": {
+              "datasetUid": "i7pd-kfg2"
+            },
+            "originalUid": "i7pd-kfg2"
+          }
+        },
+        {
+          "type": "socrata.visualization.pieChart",
+          "value": {
+            "vif": {
+              "title": "",
+              "format": {
+                "type": "visualization_interchange_format",
+                "version": 3
+              },
+              "series": [
+                {
+                  "type": "pieChart",
+                  "color": {
+                    "primary": "#71abd9",
+                    "highlight": "#cccccc",
+                    "secondary": "#71abd9"
+                  },
+                  "label": null,
+                  "dataSource": {
+                    "type": "socrata.soql",
+                    "limit": 12,
+                    "filters": [
+                      {
+                        "function": "noop",
+                        "isHidden": false,
+                        "arguments": null,
+                        "columnName": "state",
+                        "isDrilldown": true
+                      },
+                      {
+                        "function": "noop",
+                        "isHidden": false,
+                        "arguments": null,
+                        "columnName": "date",
+                        "isDrilldown": true
+                      }
+                    ],
+                    "measure": {
+                      "columnName": "cases",
+                      "aggregationFunction": "sum"
+                    },
+                    "orderBy": {
+                      "sort": "desc",
+                      "parameter": "measure"
+                    },
+                    "dimension": {
+                      "columnName": "state",
+                      "drilldowns": [
+                        {
+                          "columnName": "date",
+                          "aggregationFunction": null
+                        }
+                      ],
+                      "aggregationFunction": null,
+                      "currentDrilldownColumnName": "state"
+                    },
+                    "datasetUid": "i7pd-kfg2"
+                  },
+                  "showLegend": true
+                }
+              ],
+              "description": "Description",
+              "configuration": {
+                "showValueLabels": true,
+                "showOtherCategory": true,
+                "viewSourceDataLink": true,
+                "showValueLabelsAsPercent": false
+              }
+            },
+            "dataset": {
+              "datasetUid": "i7pd-kfg2"
+            },
+            "originalUid": "i7pd-kfg2"
+          }
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.811Z",
+      "updated_at": "2020-11-24T00:18:04.811Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "6-6",
+      "components": [
+        {
+          "type": "socrata.visualization.pieChart",
+          "value": {
+            "vif": {
+              "title": "Title",
+              "format": {
+                "type": "visualization_interchange_format",
+                "version": 3
+              },
+              "series": [
+                {
+                  "type": "pieChart",
+                  "color": {
+                    "primary": "#71abd9",
+                    "highlight": "#cccccc",
+                    "secondary": "#71abd9"
+                  },
+                  "label": null,
+                  "dataSource": {
+                    "type": "socrata.soql",
+                    "limit": 12,
+                    "filters": [
+                      {
+                        "function": "noop",
+                        "isHidden": false,
+                        "arguments": null,
+                        "columnName": "state",
+                        "isDrilldown": true
+                      },
+                      {
+                        "function": "noop",
+                        "isHidden": false,
+                        "arguments": null,
+                        "columnName": "date",
+                        "isDrilldown": true
+                      }
+                    ],
+                    "measure": {
+                      "columnName": "cases",
+                      "aggregationFunction": "sum"
+                    },
+                    "orderBy": {
+                      "sort": "desc",
+                      "parameter": "measure"
+                    },
+                    "dimension": {
+                      "columnName": "state",
+                      "drilldowns": [
+                        {
+                          "columnName": "date",
+                          "aggregationFunction": null
+                        }
+                      ],
+                      "aggregationFunction": null,
+                      "currentDrilldownColumnName": "state"
+                    },
+                    "datasetUid": "i7pd-kfg2"
+                  },
+                  "showLegend": true
+                }
+              ],
+              "description": "Description",
+              "configuration": {
+                "showValueLabels": true,
+                "showOtherCategory": true,
+                "viewSourceDataLink": true,
+                "showValueLabelsAsPercent": false
+              }
+            },
+            "dataset": {
+              "datasetUid": "i7pd-kfg2"
+            },
+            "originalUid": "i7pd-kfg2"
+          }
+        },
+        {
+          "type": "assetSelector"
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.824Z",
+      "updated_at": "2020-11-24T00:18:04.824Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "12",
+      "components": [
+        {
+          "type": "html",
+          "value": "<h3>No Filter Bar + No Hierarchy <br></h3>"
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.836Z",
+      "updated_at": "2020-11-24T00:18:04.836Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "4-4-4",
+      "components": [
+        {
+          "type": "socrata.visualization.pieChart",
+          "value": {
+            "vif": {
+              "title": "Title",
+              "format": {
+                "type": "visualization_interchange_format",
+                "version": 3
+              },
+              "series": [
+                {
+                  "type": "pieChart",
+                  "color": {
+                    "primary": "#71abd9",
+                    "highlight": "#cccccc",
+                    "secondary": "#71abd9"
+                  },
+                  "label": null,
+                  "dataSource": {
+                    "type": "socrata.soql",
+                    "limit": 12,
+                    "filters": [],
+                    "measure": {
+                      "columnName": "cases",
+                      "aggregationFunction": "sum"
+                    },
+                    "orderBy": {
+                      "sort": "desc",
+                      "parameter": "measure"
+                    },
+                    "dimension": {
+                      "columnName": "state",
+                      "aggregationFunction": null
+                    },
+                    "datasetUid": "i7pd-kfg2"
+                  },
+                  "showLegend": true
+                }
+              ],
+              "description": "",
+              "configuration": {
+                "showValueLabels": true,
+                "showOtherCategory": true,
+                "viewSourceDataLink": true,
+                "showValueLabelsAsPercent": false
+              }
+            },
+            "dataset": {
+              "datasetUid": "i7pd-kfg2"
+            },
+            "originalUid": "i7pd-kfg2"
+          }
+        },
+        {
+          "type": "socrata.visualization.pieChart",
+          "value": {
+            "vif": {
+              "title": "",
+              "format": {
+                "type": "visualization_interchange_format",
+                "version": 3
+              },
+              "series": [
+                {
+                  "type": "pieChart",
+                  "color": {
+                    "primary": "#71abd9",
+                    "highlight": "#cccccc",
+                    "secondary": "#71abd9"
+                  },
+                  "label": null,
+                  "dataSource": {
+                    "type": "socrata.soql",
+                    "limit": 12,
+                    "filters": [],
+                    "measure": {
+                      "columnName": "cases",
+                      "aggregationFunction": "sum"
+                    },
+                    "orderBy": {
+                      "sort": "desc",
+                      "parameter": "measure"
+                    },
+                    "dimension": {
+                      "columnName": "state",
+                      "aggregationFunction": null
+                    },
+                    "datasetUid": "i7pd-kfg2"
+                  },
+                  "showLegend": true
+                }
+              ],
+              "description": "Description",
+              "configuration": {
+                "showValueLabels": true,
+                "showOtherCategory": true,
+                "viewSourceDataLink": true,
+                "showValueLabelsAsPercent": false
+              }
+            },
+            "dataset": {
+              "datasetUid": "i7pd-kfg2"
+            },
+            "originalUid": "i7pd-kfg2"
+          }
+        },
+        {
+          "type": "socrata.visualization.pieChart",
+          "value": {
+            "vif": {
+              "title": "Title",
+              "format": {
+                "type": "visualization_interchange_format",
+                "version": 3
+              },
+              "series": [
+                {
+                  "type": "pieChart",
+                  "color": {
+                    "primary": "#71abd9",
+                    "highlight": "#cccccc",
+                    "secondary": "#71abd9"
+                  },
+                  "label": null,
+                  "dataSource": {
+                    "type": "socrata.soql",
+                    "limit": 12,
+                    "filters": [],
+                    "measure": {
+                      "columnName": "cases",
+                      "aggregationFunction": "sum"
+                    },
+                    "orderBy": {
+                      "sort": "desc",
+                      "parameter": "measure"
+                    },
+                    "dimension": {
+                      "columnName": "state",
+                      "aggregationFunction": null
+                    },
+                    "datasetUid": "i7pd-kfg2"
+                  },
+                  "showLegend": true
+                }
+              ],
+              "description": "Description",
+              "configuration": {
+                "showValueLabels": true,
+                "showOtherCategory": true,
+                "viewSourceDataLink": true,
+                "showValueLabelsAsPercent": false
+              }
+            },
+            "dataset": {
+              "datasetUid": "i7pd-kfg2"
+            },
+            "originalUid": "i7pd-kfg2"
+          }
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.846Z",
+      "updated_at": "2020-11-24T00:18:04.846Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "12",
+      "components": [
+        {
+          "type": "html",
+          "value": "<h3>Filter Bar + No Hierarchy <br></h3>"
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.860Z",
+      "updated_at": "2020-11-24T00:18:04.860Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "4-4-4",
+      "components": [
+        {
+          "type": "socrata.visualization.pieChart",
+          "value": {
+            "vif": {
+              "title": "Title",
+              "format": {
+                "type": "visualization_interchange_format",
+                "version": 3
+              },
+              "series": [
+                {
+                  "type": "pieChart",
+                  "color": {
+                    "primary": "#71abd9",
+                    "highlight": "#cccccc",
+                    "secondary": "#71abd9"
+                  },
+                  "label": null,
+                  "dataSource": {
+                    "type": "socrata.soql",
+                    "limit": 12,
+                    "filters": [
+                      {
+                        "function": "noop",
+                        "isHidden": false,
+                        "arguments": null,
+                        "columnName": "state",
+                        "isDrilldown": false
+                      }
+                    ],
+                    "measure": {
+                      "columnName": "cases",
+                      "aggregationFunction": "sum"
+                    },
+                    "orderBy": {
+                      "sort": "desc",
+                      "parameter": "measure"
+                    },
+                    "dimension": {
+                      "columnName": "state",
+                      "aggregationFunction": null
+                    },
+                    "datasetUid": "i7pd-kfg2"
+                  },
+                  "showLegend": true
+                }
+              ],
+              "description": "",
+              "configuration": {
+                "showValueLabels": true,
+                "showOtherCategory": true,
+                "viewSourceDataLink": true,
+                "showValueLabelsAsPercent": false
+              }
+            },
+            "dataset": {
+              "datasetUid": "i7pd-kfg2"
+            },
+            "originalUid": "i7pd-kfg2"
+          }
+        },
+        {
+          "type": "socrata.visualization.pieChart",
+          "value": {
+            "vif": {
+              "title": "",
+              "format": {
+                "type": "visualization_interchange_format",
+                "version": 3
+              },
+              "series": [
+                {
+                  "type": "pieChart",
+                  "color": {
+                    "primary": "#71abd9",
+                    "highlight": "#cccccc",
+                    "secondary": "#71abd9"
+                  },
+                  "label": null,
+                  "dataSource": {
+                    "type": "socrata.soql",
+                    "limit": 12,
+                    "filters": [
+                      {
+                        "function": "noop",
+                        "isHidden": false,
+                        "arguments": null,
+                        "columnName": "state",
+                        "isDrilldown": false
+                      }
+                    ],
+                    "measure": {
+                      "columnName": "cases",
+                      "aggregationFunction": "sum"
+                    },
+                    "orderBy": {
+                      "sort": "desc",
+                      "parameter": "measure"
+                    },
+                    "dimension": {
+                      "columnName": "state",
+                      "aggregationFunction": null
+                    },
+                    "datasetUid": "i7pd-kfg2"
+                  },
+                  "showLegend": true
+                }
+              ],
+              "description": "Description",
+              "configuration": {
+                "showValueLabels": true,
+                "showOtherCategory": true,
+                "viewSourceDataLink": true,
+                "showValueLabelsAsPercent": false
+              }
+            },
+            "dataset": {
+              "datasetUid": "i7pd-kfg2"
+            },
+            "originalUid": "i7pd-kfg2"
+          }
+        },
+        {
+          "type": "socrata.visualization.pieChart",
+          "value": {
+            "vif": {
+              "title": "Title",
+              "format": {
+                "type": "visualization_interchange_format",
+                "version": 3
+              },
+              "series": [
+                {
+                  "type": "pieChart",
+                  "color": {
+                    "primary": "#71abd9",
+                    "highlight": "#cccccc",
+                    "secondary": "#71abd9"
+                  },
+                  "label": null,
+                  "dataSource": {
+                    "type": "socrata.soql",
+                    "limit": 12,
+                    "filters": [
+                      {
+                        "function": "noop",
+                        "isHidden": false,
+                        "arguments": null,
+                        "columnName": "state",
+                        "isDrilldown": false
+                      }
+                    ],
+                    "measure": {
+                      "columnName": "cases",
+                      "aggregationFunction": "sum"
+                    },
+                    "orderBy": {
+                      "sort": "desc",
+                      "parameter": "measure"
+                    },
+                    "dimension": {
+                      "columnName": "state",
+                      "aggregationFunction": null
+                    },
+                    "datasetUid": "i7pd-kfg2"
+                  },
+                  "showLegend": true
+                }
+              ],
+              "description": "Description",
+              "configuration": {
+                "showValueLabels": true,
+                "showOtherCategory": true,
+                "viewSourceDataLink": true,
+                "showValueLabelsAsPercent": false
+              }
+            },
+            "dataset": {
+              "datasetUid": "i7pd-kfg2"
+            },
+            "originalUid": "i7pd-kfg2"
+          }
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.870Z",
+      "updated_at": "2020-11-24T00:18:04.870Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "12",
+      "components": [
+        {
+          "type": "html",
+          "value": "<h3>Hierarchy <br></h3>"
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.892Z",
+      "updated_at": "2020-11-24T00:18:04.892Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    },
+    {
+      "layout": "4-4-4",
+      "components": [
+        {
+          "type": "socrata.visualization.pieChart",
+          "value": {
+            "vif": {
+              "title": "Title",
+              "format": {
+                "type": "visualization_interchange_format",
+                "version": 3
+              },
+              "series": [
+                {
+                  "type": "pieChart",
+                  "color": {
+                    "primary": "#71abd9",
+                    "highlight": "#cccccc",
+                    "secondary": "#71abd9"
+                  },
+                  "label": null,
+                  "dataSource": {
+                    "type": "socrata.soql",
+                    "limit": 12,
+                    "filters": [
+                      {
+                        "function": "noop",
+                        "isHidden": false,
+                        "arguments": null,
+                        "columnName": "state",
+                        "isDrilldown": true
+                      },
+                      {
+                        "function": "noop",
+                        "isHidden": false,
+                        "arguments": null,
+                        "columnName": "date",
+                        "isDrilldown": true
+                      }
+                    ],
+                    "measure": {
+                      "columnName": "cases",
+                      "aggregationFunction": "sum"
+                    },
+                    "orderBy": {
+                      "sort": "desc",
+                      "parameter": "measure"
+                    },
+                    "dimension": {
+                      "columnName": "state",
+                      "drilldowns": [
+                        {
+                          "columnName": "date",
+                          "aggregationFunction": null
+                        }
+                      ],
+                      "aggregationFunction": null,
+                      "currentDrilldownColumnName": "state"
+                    },
+                    "datasetUid": "i7pd-kfg2"
+                  },
+                  "showLegend": true
+                }
+              ],
+              "description": "",
+              "configuration": {
+                "showValueLabels": true,
+                "showOtherCategory": true,
+                "viewSourceDataLink": true,
+                "showValueLabelsAsPercent": false
+              }
+            },
+            "dataset": {
+              "datasetUid": "i7pd-kfg2"
+            },
+            "originalUid": "i7pd-kfg2"
+          }
+        },
+        {
+          "type": "socrata.visualization.pieChart",
+          "value": {
+            "vif": {
+              "title": "",
+              "format": {
+                "type": "visualization_interchange_format",
+                "version": 3
+              },
+              "series": [
+                {
+                  "type": "pieChart",
+                  "color": {
+                    "primary": "#71abd9",
+                    "highlight": "#cccccc",
+                    "secondary": "#71abd9"
+                  },
+                  "label": null,
+                  "dataSource": {
+                    "type": "socrata.soql",
+                    "limit": 12,
+                    "filters": [
+                      {
+                        "function": "noop",
+                        "isHidden": false,
+                        "arguments": null,
+                        "columnName": "state",
+                        "isDrilldown": true
+                      },
+                      {
+                        "function": "noop",
+                        "isHidden": false,
+                        "arguments": null,
+                        "columnName": "date",
+                        "isDrilldown": true
+                      }
+                    ],
+                    "measure": {
+                      "columnName": "cases",
+                      "aggregationFunction": "sum"
+                    },
+                    "orderBy": {
+                      "sort": "desc",
+                      "parameter": "measure"
+                    },
+                    "dimension": {
+                      "columnName": "state",
+                      "drilldowns": [
+                        {
+                          "columnName": "date",
+                          "aggregationFunction": null
+                        }
+                      ],
+                      "aggregationFunction": null,
+                      "currentDrilldownColumnName": "state"
+                    },
+                    "datasetUid": "i7pd-kfg2"
+                  },
+                  "showLegend": true
+                }
+              ],
+              "description": "Description",
+              "configuration": {
+                "showValueLabels": true,
+                "showOtherCategory": true,
+                "viewSourceDataLink": true,
+                "showValueLabelsAsPercent": false
+              }
+            },
+            "dataset": {
+              "datasetUid": "i7pd-kfg2"
+            },
+            "originalUid": "i7pd-kfg2"
+          }
+        },
+        {
+          "type": "socrata.visualization.pieChart",
+          "value": {
+            "vif": {
+              "title": "Title",
+              "format": {
+                "type": "visualization_interchange_format",
+                "version": 3
+              },
+              "series": [
+                {
+                  "type": "pieChart",
+                  "color": {
+                    "primary": "#71abd9",
+                    "highlight": "#cccccc",
+                    "secondary": "#71abd9"
+                  },
+                  "label": null,
+                  "dataSource": {
+                    "type": "socrata.soql",
+                    "limit": 12,
+                    "filters": [
+                      {
+                        "function": "noop",
+                        "isHidden": false,
+                        "arguments": null,
+                        "columnName": "state",
+                        "isDrilldown": true
+                      },
+                      {
+                        "function": "noop",
+                        "isHidden": false,
+                        "arguments": null,
+                        "columnName": "date",
+                        "isDrilldown": true
+                      }
+                    ],
+                    "measure": {
+                      "columnName": null,
+                      "aggregationFunction": "count"
+                    },
+                    "orderBy": {
+                      "sort": "desc",
+                      "parameter": "measure"
+                    },
+                    "dimension": {
+                      "columnName": "state",
+                      "drilldowns": [
+                        {
+                          "columnName": "date",
+                          "aggregationFunction": null
+                        }
+                      ],
+                      "aggregationFunction": null,
+                      "currentDrilldownColumnName": "state"
+                    },
+                    "datasetUid": "i7pd-kfg2"
+                  },
+                  "showLegend": true
+                }
+              ],
+              "description": "Description",
+              "configuration": {
+                "showValueLabels": true,
+                "showOtherCategory": true,
+                "viewSourceDataLink": true,
+                "showValueLabelsAsPercent": false
+              }
+            },
+            "dataset": {
+              "datasetUid": "i7pd-kfg2"
+            },
+            "originalUid": "i7pd-kfg2"
+          }
+        }
+      ],
+      "created_by": "63t2-3ya3",
+      "created_at": "2020-11-24T00:18:04.899Z",
+      "updated_at": "2020-11-24T00:18:04.899Z",
+      "deleted_at": null,
+      "presentable": true,
+      "background_color": null
+    }
+  ],
+  "approvals": [{
+    "reviewedAt": 1623441954,
+    "reviewedAutomatically": false,
+    "state": "approved",
+    "submissionId": 2664750,
+    "submissionObject": "public_audience_request",
+    "submissionOutcome": "change_audience",
+    "submittedAt": 1623441927,
+    "workflowId": 647,
+    "reviewer": {
+      "id": "jaqu-zff4",
+      "displayName": "Dominic",
+      "email": "dominic.cicilio@tylertech.com"
+    },
+    "submissionDetails": {
+      "permissionType": "read"
+    },
+    "submissionOutcomeApplication": {
+      "endedAt": 1623441954,
+      "failureCount": 0,
+      "startedAt": 1623441954,
+      "status": "success"
+    },
+    "submitter": {
+      "id": "jaqu-zff4",
+      "displayName": "Dominic",
+      "email": "dominic.cicilio@tylertech.com"
+    }
+  }],
+  "columns": [],
+  "grants": [{
+    "inherited": false,
+    "type": "viewer",
+    "flags": ["public"]
+  }],
+  "metadata": {
+    "isStorytellerAsset": true,
+    "initialized": false,
+    "availableDisplayTypes": ["story"],
+    "renderTypeConfig": {
+      "visible": {
+        "story": true
+      }
+    }
+  },
+  "owner": {
+    "id": "jaqu-zff4",
+    "displayName": "Dominic",
+    "screenName": "Dominic",
+    "type": "interactive",
+    "userSegment": "superadmin",
+    "flags": ["acceptedEula", "mayBeStoriesCoOwner"]
+  },
+  "permissions": {
+    "scope": "public",
+    "accessLevels": [{
+      "name": "viewer",
+      "version": "all"
+    }, {
+      "name": "contributor",
+      "version": "all"
+    }, {
+      "name": "owner",
+      "version": "all"
+    }],
+    "users": [{
+      "id": "jaqu-zff4",
+      "displayName": "Dominic",
+      "email": "dominic.cicilio@tylertech.com",
+      "type": "interactive",
+      "accessLevels": [{
+        "name": "current_owner",
+        "version": "all"
+      }]
+    }]
+  },
+  "query": {},
+  "rights": ["read", "write", "add", "delete", "grant", "add_column", "remove_column", "update_column", "update_view", "delete_view", "transfer_ownership", "manage_provenance"],
+  "tableAuthor": {
+    "id": "jaqu-zff4",
+    "displayName": "Dominic",
+    "screenName": "Dominic",
+    "type": "interactive",
+    "userSegment": "superadmin",
+    "flags": ["acceptedEula", "mayBeStoriesCoOwner"]
+  },
+  "flags": ["default", "ownerMayBeContacted"]
+}
