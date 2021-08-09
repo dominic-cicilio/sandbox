@@ -1,5 +1,9 @@
-const path = require('path')
+const path = require('path');
+const withImages = require("next-images");
 
-module.exports = {
-  reactStrictMode: true
-}
+
+module.exports = withImages({
+  images: {
+    domains: ['i.thatcopy.pw'],
+  },
+});

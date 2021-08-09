@@ -1,4 +1,6 @@
 import Image from 'next/image';
+import CardList from '../../components/CardList';
+import Card from '../../components/Card';
 
 interface Cats {
   name: string,
@@ -6,45 +8,26 @@ interface Cats {
   url: string
 }
 
-const GridStyle = {
-  "margin": "50px",
-  "display": "grid"
-}
-
-const CardStyle = {
-  width: '200px',
-  height: '300px',
-}
-
 export default function SSRCats({ cats }: { cats: Cats[] }) {
 
-  console.log(cats);
-
   return (
-    <div style={GridStyle}>
+    <CardList>
       {cats.map((cat) => {
         return (
-          <div style={CardStyle}>
-            <img src={cat.url} width="60px" />
+          <Card key={cat.name+cat.url}>
+            <Image src={cat.url} layout="fill" />
             <div>{cat.name}</div>
-            <div>{cat.name}</div>
-          </div>
+            <div>{cat.bio}</div>
+          </Card>
         )
       })}
-    </div>
+    </CardList>
   )
 }
 
 
 // This gets called on every request
 export async function getServerSideProps() {
-  // Fetch data from external API
-  // const catImageResponseList = await Promise.all([
-  //   fetch(`https://thatcopy.pw/catapi/rest/`),
-  //   fetch(`https://thatcopy.pw/catapi/rest/`),
-  //   fetch(`https://thatcopy.pw/catapi/rest/`),
-  //   fetch(`https://thatcopy.pw/catapi/rest/`),
-  // ])
   const res = await fetch(`https://thatcopy.pw/catapi/rest/`);
   const result = await res.json();
 
@@ -65,7 +48,7 @@ export async function getServerSideProps() {
       url: result.url//catUrlList[2]
     },
     {
-      name: "Night",
+      name: "Kiwi",
       bio: "Communicator. Alcohol fanatic. Devoted tv scholar. Social media evangelist. Web trailblazer. Analyst.",
       url: result.url//catUrlList[3]
     },
