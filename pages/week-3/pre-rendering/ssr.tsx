@@ -194,6 +194,8 @@ export async function getServerSideProps() {
     },
   ]
 
+  console.log("Get Props Hit")
+
   // Pass data to the page via props
   return { props: { cats } }
 }

@@ -149,6 +149,8 @@ export async function getStaticProps() {
     fetch(`https://thatcopy.pw/catapi/rest/`),
   ]);
 
+  console.log("hit static props");
+
   const catUrlsPromises: Promise<string>[] = catImageResponseList.map(async (catResponse) => {
     const cat = await catResponse.json();
     return cat.url;
@@ -162,10 +164,6 @@ export async function getStaticProps() {
 
     return imageName;
   })
-
-
-  // const res = await fetch(`https://thatcopy.pw/catapi/rest/`);
-  // const result = await res.json();
 
   const cats: Cat[] = [
     {

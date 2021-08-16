@@ -113,6 +113,20 @@
   margin-left: 0.5rem;
 }
 
+.box {
+  width: 100px;
+  height: 60px;
+  background-color: pink;
+
+  .purpleText {
+    color: darkblue;
+  }
+}
+
+.purpleText {
+
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import CardList from '../../components/CardList';
-import Card from '../../components/Card';
+import CardList from '../../../components/CardList';
+import Card from '../../../components/Card';
 
 interface Cats {
   name: string,
