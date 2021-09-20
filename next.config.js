@@ -8,7 +8,7 @@ module.exports = withPlugins([
   [withBundleAnalyzer],
   [withImages, {
     images: {
-      domains: ['i.thatcopy.pw'],
+      domains: ['i.thatcopy.pw', 'media.graphcms.com'],
     }
   }]
 ]);
